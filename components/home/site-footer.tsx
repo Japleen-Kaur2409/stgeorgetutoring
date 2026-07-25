@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Instagram, Mail, MapPin } from "lucide-react";
 
@@ -8,10 +9,8 @@ export function SiteFooter() {
     <footer className="border-t border-border/60 bg-background/90 px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="max-w-sm">
-          <div className="flex items-center gap-2">
-            <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-sm font-semibold text-primary-foreground">
-              SG
-            </span>
+          <div className="flex items-center gap-3">
+            <Image src="/images/logo.png" alt="St. George Tutoring Sessions logo" width={150} height={150} className="rounded-xl" />
             <div>
               <p className="font-heading text-base font-semibold text-foreground">{SITE_NAME}</p>
               <p className="text-sm text-muted-foreground">Premium tutoring with real support.</p>

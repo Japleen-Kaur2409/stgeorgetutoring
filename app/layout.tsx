@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "St. George Tutoring Sessions",
   description:
-    "Affordable, small-group tutoring in Math, Science, English, SAT, and IELTS, personally taught by a University of Toronto student.",
+    "Affordable, small-group tutoring in Math, Science, English, SAT, and IELTS, near St. George Station.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

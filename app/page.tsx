@@ -3,6 +3,7 @@ import { FaqSection } from "@/components/home/faq-section";
 import { FinalCtaSection } from "@/components/home/final-cta-section";
 import { HeroSection } from "@/components/home/hero-section";
 import { PricingSection } from "@/components/home/pricing-section";
+import { ReviewsSection } from "@/components/home/reviews-section";
 import { ScheduleLocationSection } from "@/components/home/schedule-location-section";
 import { SiteFooter } from "@/components/home/site-footer";
 import { SubjectsSection } from "@/components/home/subjects-section";
@@ -17,6 +18,7 @@ export default function Home() {
       <PricingSection />
       <ScheduleLocationSection />
       <AboutInstructorSection />
+      <ReviewsSection />
       <FaqSection />
       <FinalCtaSection />
       <SiteFooter />
